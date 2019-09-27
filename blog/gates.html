@@ -946,7 +946,7 @@ var mylist =
 output.innerHTML = "Bill Gates in okunmasını önerdiği 185 kitap<br><hr><br>"
 for(i=0;i<mylist.length;i++){
 
-	output.innerHTML += i+1 +". "+ mylist[i].Authors + " - " + mylist[i].Name + "<br>";
+	output.innerHTML += i+1 +". "+ mylist[i].Authors + " - " + "<a href='https://duckduckgo.com/?q=" + mylist[i].Name + "'>" + mylist[i].Name +"</a><br>";
 }
 
 
